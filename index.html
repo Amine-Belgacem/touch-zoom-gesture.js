@@ -1,0 +1,123 @@
+
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="file:///android_asset/app.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!--<script src="js/Hammer.js"></script>-->
+    <!--<script src="js/TouchZoom.js"></script>-->
+    <script src="js/HiDPI.js"></script>
+    <script src="js/SuperCanvasr.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <center>
+        <!--<div id="wrap">
+            <canvas id="myCanvas" width="720px" height="720px"  data-caman-hidpi-disabled></canvas>
+        </div>-->
+    </center>
+</body>
+
+<script>
+
+
+ 
+    //var canvas = jQuery("#myCanvas")[0];
+          
+   var c = new SuperCanvas(720, 720);
+ //var tz = new TouchZoom(c.DOM);
+   //tz.add(["pan","pinchzoom", "doubletapzoom"]);
+    
+   
+   
+	
+    //c.fill("#e1e1e1");
+    c.drawBackgroundImage("./a.png",  function (a){
+	    var text1 = 'Hello how are you. Salut comment ca va toi today is it good ';
+        var style1 = {
+            fontType : "bold",
+            fontSize : 40,
+            font : "Arial",
+            color : "#ffffff",
+            shadow : {
+                color : "#000000",
+                blur : 5,
+                x : 5,
+                y : 5
+            },
+            outline : {
+                color : "#000000",
+                thickness : 1
+            },
+            opacity : 0.5
+        };
+	
+	    c.drawText(text1, style1, {x: null, y:null});
+	
+	    var text = 'Salutxx';
+        var style = {
+			textAlign : 'left',
+            fontType : "bold",
+            fontSize : 60,
+            font : "Arial",
+            color : "#ffffff",
+            shadow : {
+                color : "#ff0000",
+                blur : 5,
+                x : 5,
+                y : 5
+            },
+            outline : {
+                color : "#000000",
+                thickness : 2
+            },
+            opacity : 0.5
+        };
+		c.drawText(text, style, {x: null, y:null});
+		
+	   
+        var stylex = {
+            shadow : {
+                color : "#000000",
+                blur : 5,
+                x : 5,
+                y : 5
+            },
+        };		
+		
+		c.drawImage("./y.svg", stylex, {x: null, y:null}, {width:200, height:200}, function (a){
+
+			c.drawRect(["#dedede"], {x: null, y:null}, {width:200, height:200})
+			//c.brightness(50)
+			//c.erase(2)
+			//c.drawBackground("#ff0000");
+		})
+		
+		
+
+	
+	});
+	
+	
+//   // alert(c.adjust.brightness());
+//    
+
+//    
+//    HiDPI.switchCanvas(canvas, 360, 360);
+    //var context = canvas.getContext("2d");
+    //c.fill("#4186A3");
+	
+    
+
+
+
+
+
+
+</script>
+
+   
+  </html>		
