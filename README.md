@@ -1,2 +1,2 @@
-# Finger-handler.js
+# Touch-zoom-gesture.js
 Finger event handling script.
