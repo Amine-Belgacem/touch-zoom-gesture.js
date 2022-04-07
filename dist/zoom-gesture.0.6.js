@@ -1,5 +1,5 @@
 /**
- * ZoomGesture: Touch supporting canvas built for social media quotes
+ * ZoomGesture: Zoom gestures for DOM elements
  * @copyright Amine Belkacem 2015
  * @version 0.2
  * @license Apache-2.0
