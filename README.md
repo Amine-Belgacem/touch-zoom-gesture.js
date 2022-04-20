@@ -1,5 +1,5 @@
 # Touch-zoom-gesture.js
-.js class enabling basic pan, pinch and double-tap zoom gestures on DOM elements. Touch-zoom-gesture requires `jquery` and `hammer.js` which provides core functions for finger gestures.
+Javascript class enabling basic pan, pinch and double-tap zoom gestures on DOM elements. Touch-zoom-gesture requires `jquery` and `hammer.js` which provides core functions for finger gestures.
 
 ## Get started
 Clone repository.
