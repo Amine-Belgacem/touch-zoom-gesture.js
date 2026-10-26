@@ -4,7 +4,7 @@ Javascript class adding basic pan, pinch and double-tap zoom gestures to DOM ele
 ## Get started
 Clone repository.
 
-    git clone https://github.com/Amine-Belkacem/Touch-zoom-gesture.js.git
+    git clone https://github.com/Amine-Belgacem/touch-zoom-gesture.js.git
 Explore the example in `./demo`
 
 ## Methods Reference
